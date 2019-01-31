@@ -1,0 +1,56 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space | Home</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/resources/spannersheet.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-mid>
+		<a href="/createAssignment">Create Assignment</a>-
+		<a href="#">Your Profile</a>
+
+		</nav-mid>
+
+		<nav-right>
+			<userbox>Welcome {{.ID}}</userbox>
+			<a href="/logout" style= "font-size: 0.7em">Logout</a>
+		</nav-right>
+	</nav>
+
+	<left-side-bar>
+	<a href="#" class="active">Assignment by You</a>	
+	</left-side-bar>
+
+
+	<hack-box>
+		
+		<hack-heading>Message:</hack-heading>
+
+		<hack-create>
+			{{.Msg}}
+		</hack-create>
+
+	</hack-box>
+	
+	<script src="resources/jquery/jquery.min.js"></script>
+	
+	</body>
+
+
+</html>
+

@@ -1,0 +1,107 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space | Home</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/resources/spannersheet.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-mid>
+		<a href="/createAssignment">Create Assignment</a>-
+		<a href="/grading">Grading</a>-
+		<a href="#">Your Profile</a>
+
+		</nav-mid>
+
+		<nav-right>
+			<userbox>Welcome {{.Teacher_ID}}</userbox>
+			<a href="/" style= "font-size: 0.7em">Logout</a>
+		</nav-right>
+	</nav>
+
+	<left-side-bar>
+	<a href={{"/created/"}}{{.Teacher_ID}}>Assignment by You</a>
+	
+	</left-side-bar>
+
+
+	<hack-box>
+		
+		<hack-heading>Create Assignment</hack-heading>
+
+		<hack-create>
+		<form action={{"/publish/"}}{{.Teacher_ID}} method="POST">
+
+			<para>
+
+				<input type="text" name="id" style="background-color: #fff" required> 
+				<label>Assignment ID</label>
+			</para>
+			<br>
+			<br>
+			<para>
+
+				<input type="text" name="name" style="background-color: #fff" required> 
+				<label>Assignment Name</label>
+			</para>
+			<br><br>
+			<para>
+
+				<input type="text" name="batch" style="background-color: #fff" required> 
+				<label>Batch</label>
+			</para>
+			<br>
+			<br>
+			<para>
+
+				<input type="text" name="credits" style="background-color: #fff" required> 
+				<label>Credits Alloted</label>
+			
+			</para>
+			<br>
+			<br>
+			<para>
+
+				<input type="date" name="deadline" style="background-color: #fff" > 
+				<label>Deadline of Assignment</label>
+			
+			</para>
+			<br>
+			<br>
+			<para>
+
+				<input type="text" name="course" style="background-color: #fff" required> 
+				<label>Course ID</label>
+			
+			</para>
+			<br>
+			<br>
+
+				<button type="submit" class="proceed" >Publish Assignment</button>
+
+			</form>
+		</hack-create>
+
+	</hack-box>
+	
+	<script src="resources/jquery/jquery.min.js"></script>
+	
+	</body>
+
+
+</html>
+

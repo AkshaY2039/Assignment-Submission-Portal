@@ -1,0 +1,105 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space | Home</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/resources/spannersheet.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-mid>
+		<a href="#">Student Ranking</a>-
+		<a href="/profile">Your Profile</a>
+
+		</nav-mid>
+
+		<nav-right>
+			<userbox>Welcome {{.Current}}</userbox>
+			<a href="/" style= "font-size: 0.7em">Logout</a>
+		</nav-right>
+	</nav>
+
+	<left-side-bar>
+	<a href	={{"/all/"}}{{.Current}} >All Assignments</a>
+	<a href={{"/unsubmitted/"}}{{.Current}}>Pending Assignments</a>
+	<a href="#">Discussions</a>
+
+	</left-side-bar>
+
+
+	<hack-box>
+
+		<hack-content>
+
+			<hack-heading>{{.Assignment.Assignment_Name}}</hack-heading>
+
+			<hack-creator>by {{.Assignment.Teacher_ID}}</hack-creator>
+			<br>
+			<hack-complexity><meta-text>Course ID : </meta-text> {{.Assignment.Course_ID}}</hack-complexity>
+			<hack-time><meta-text>Deadline : </meta-text> {{.Assignment.Deadline_Date}} days</hack-time>
+			<hack-score><meta-text>CreditsAlloted : </meta-text> {{.Assignment.Credits_Alloted}}</hack-score>
+			<hack-score><meta-text>Batch : </meta-text> {{.Assignment.Batch}}</hack-score>
+			<br><br>
+			<form action={{"/upload/"}}{{.Assignment.Assignment_ID}}{{"/"}}{{.Current}} method="POST" enctype="multipart/form-data">
+			&nbsp&nbspSubmit a Solution:<input type="file"  name="solution" />
+
+			<hack-description>
+			<button class="proceed">Submit Solution</button>
+			</hack-description>
+			</form>
+
+			</hack-description>
+		</hack-content>
+
+		<forum>
+		<hack-heading>Forum</hack-heading>
+			
+
+		<form action="#" method="POST">
+				
+				<textarea  class="problem" cols="80" rows="3" placeholder="Post a Comment or a doubt"></textarea>
+
+				<hack-description>
+			<button class="proceed">Post Comment</button>
+			</hack-description>
+
+		</form>
+
+		</forum>
+		
+
+	</hack-box>
+
+
+	<right-side-bar>
+		<right-header><div class="green-circle"></div>Student Feeds</right-header>
+
+
+	</right-side-bar>
+
+	
+	<script src="resources/jquery/jquery.min.js"></script>
+	
+	<script>
+		function goBack() {
+		    window.history.back();
+		}
+	</script>
+	</body>
+
+
+</html>
+

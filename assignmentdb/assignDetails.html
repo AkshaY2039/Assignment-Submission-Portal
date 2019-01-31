@@ -1,0 +1,105 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/resources/spannersheet.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-mid>
+		<a href={{"/createAssignment/"}}{{.Current}}>Create Assignment</a>-
+		<a href="/profile">Your Profile</a>
+
+		</nav-mid>
+
+		<nav-right>
+			<userbox>Welcome {{.Current}}</userbox>
+			<a href="/" style= "font-size: 0.7em">Logout</a>
+		</nav-right>
+	</nav>
+
+	<left-side-bar>
+	<a href="#" class="active">Assignment by You</a>
+	</left-side-bar>
+
+<hack-box>
+
+		<hack-content>
+
+			<hack-heading>{{.Assignment.Assignment_Name}}</hack-heading>
+
+			<hack-creator>by {{.Assignment.Teacher_ID}}</hack-creator>
+			<br>
+			<hack-complexity><meta-text>Course ID : </meta-text> {{.Assignment.Course_ID}}</hack-complexity>
+			<hack-time><meta-text>Deadline : </meta-text> {{.Assignment.Deadline_Date}} days</hack-time>
+			<hack-score><meta-text>CreditsAlloted : </meta-text> {{.Assignment.Credits_Alloted}}</hack-score>
+			<hack-score><meta-text>Batch : </meta-text> {{.Assignment.Batch}}</hack-score>
+			<br><br>
+
+			<hack-creator><meta-text>Submitted by:</meta-text>
+			{{range .Submited}}
+			-{{.RollNumber}}</small>
+			{{end}}
+			</hack-creator>
+			<br><br>
+				
+			<hack-creator>Grade any Student :</hack-creator>
+
+			<form action={{"/grade/"}}{{.Current}}{{"/"}}{{.Assignment.Assignment_ID}} method="POST">
+
+
+			<para>
+
+				<input type="text" name="name" style="background-color: #fff" required> 
+				<label>Student ID</label>
+			</para>
+
+			<para>
+
+				<input type="text" name="credits" style="background-color: #fff" required> 
+				<label>Credits:</label>
+			</para>
+			<para>
+
+				<input type="text" name="plag" style="background-color: #fff" required> 
+				<label>Originality :</label>
+			</para>
+			<br><br>
+			<button type="submit" class="proceed" >Save Grades</button>
+
+			</form>
+
+
+		</hack-content>
+
+		
+	</hack-box>
+
+
+	<right-side-bar>
+		<right-header><div class="green-circle"></div>Peer Feeds</right-header>
+
+
+	</right-side-bar>
+
+	
+	<script src="resources/jquery/jquery.min.js"></script>
+
+	</body>
+
+
+</html>

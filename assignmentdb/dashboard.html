@@ -1,0 +1,77 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space</title>
+
+
+		<link rel="stylesheet" type="text/css" href="/resources/spannersheet.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-mid>
+		<a href="#">Student Ranking</a>-
+		<a href="/profile">Your Profile</a>
+
+		</nav-mid>
+
+		<nav-right>
+			<userbox>Welcome {{.Current.Student_ID}}</userbox>
+			<a href="/" style= "font-size: 0.7em">Logout</a>
+		</nav-right>
+	</nav>
+
+	<left-side-bar>
+	<a href={{"/all/"}}{{.Current.Student_ID}} class="active">All Assignments</a>
+	<a href={{"/unsubmitted/"}}{{.Current.Student_ID}}>Pending Assignments</a>
+	<a href="#">Discussions</a>
+	</left-side-bar>
+
+
+	<hack-box>
+		
+
+		<hack-heading>All Assignments</hack-heading>
+		{{$roll := .Current.Student_ID}}
+		{{range .Assignments}}{{$link:= .Assignment_ID}}
+		<a class="noStyle" href={{"/assignment/"}}{{$link}}{{"/"}}{{$roll}}>
+		<hack-content>
+
+			<hack-name>{{.Assignment_Name}}</hack-name>
+			
+			<hack-creator>by {{.Teacher_ID}}</hack-creator>
+			
+			<hack-info>
+				<hack-complexity><meta-text>Course : </meta-text> {{.Course_ID}}</hack-complexity>
+				<hack-time><meta-text>Deadline : </meta-text> {{.Deadline_Date}}</hack-time>
+				<hack-score><meta-text>Credits Alloted : </meta-text> {{.Credits_Alloted}}</hack-score>
+			</hack-info>
+			
+		</hack-content></a>
+		{{end}}
+
+	</hack-box>
+	<right-side-bar>
+		<right-header><div class="green-circle"></div>Peer Feeds</right-header>
+
+
+	</right-side-bar>
+
+	
+	<script src="resources/jquery/jquery.min.js"></script>
+
+	</body>
+
+
+</html>

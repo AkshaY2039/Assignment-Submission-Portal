@@ -1,0 +1,154 @@
+<html>
+<head>
+
+		<meta name="theme-color" content="#05668D">
+
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+
+		<title>Assignment Space</title>
+
+
+		<link rel="stylesheet" type="text/css" href="resources/indexMain.css">
+
+</head>
+
+<body>
+	
+	<nav >
+		
+		<nav-left>
+		<a href="/"><nav-element>Assignment Space</nav-element></a>
+		</nav-left>
+
+		<nav-right>
+		<a href="#" id="login"><nav-element>Login</nav-element></a>
+		<a href="#" id="signup"><nav-element>About Us</nav-element></a>
+		</nav-right>
+	</nav>
+
+	<box1>
+
+	<heading>What is Assignment Space ?</heading><br><br>
+	<para>Ass Space is a solution that connects students and helps them submit assignments.
+	
+</para>
+	</box1>
+
+
+	<box2 ng-app="main">
+
+		<heading>
+			Login
+		</heading>
+		<br><br>
+		<form action="/login" method="POST">
+		<para>	
+			<input type="text" name="username" required>
+			<label>Your Username</label>
+
+		</para>
+
+		<para>	
+			<br><br>
+			<input type="password" name="password" required>
+			<label>Password</label>
+		
+		</para>
+		<para>	
+			<br><br>
+			Login as a: 
+			<select name="usertype">
+				<option value="1" >Student</option>
+				<option value="2" >Teacher</option>
+			</select>
+			<br><br><br>
+		</para>
+		<button type="submit" class="proceed">Proceed</button>
+		</form>
+	</box2>
+	<!-- <box3>
+
+		<heading>
+			Sign Up
+		</heading>
+		<br><br>
+		<form action="/signup" method="POST">
+		<para>
+
+			<input type="text" name="name" required> 
+			<label>Name</label>
+		</para>
+		<para>	
+			<br><br>
+			<input type="text" name="username" required>
+			<label>Username</label>
+
+		</para>
+		<para>	
+			<br><br>
+			<input type="password" name="password" required>
+			<label>Password</label>
+
+		</para>
+		<para>	
+			<br><br>
+			<input type="password" name="password" required>
+			<label>Repeat Password</label>
+
+		</para>
+		<para>	
+			<br><br>
+			Join as a: 
+			<select name="usertype">
+				<option value="1" >Student</option>
+				<option value="2" >Professional</option>
+			</select>
+			<br><br><br>
+				<button class="proceed">Proceed</button>
+		</para>
+
+		</form>
+	</box3> -->
+	<script src="resources/jquery.min.js"></script>
+	<script>
+
+	$(document).ready(function(){
+
+		$("#login").addClass("active");
+		
+    	$("#login").click(function(){
+        	$("box2").show();
+        	$("box3").hide();
+        	$(this).addClass("active");
+        	$("#signup").removeClass("active");
+        	
+    	});
+    	$("#signup").click(function(){
+        	$("box3").show();
+        	$("box2").hide();
+        	$(this).addClass("active");
+        	$("#login").removeClass("active");
+
+    	});
+	});
+	</script>
+	</body>
+
+
+</html>
+
+
+<!-- 
+		
+		Pages:
+		1.Login Page
+		2.Student Home
+		3.Teacher Home
+		4.Student Profile Page 
+		5.Teacher Profile Page
+		6.Submit Page
+		7.Create Assignment Page
+
+ -->
+
+

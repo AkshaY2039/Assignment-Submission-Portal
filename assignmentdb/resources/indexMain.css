@@ -1,0 +1,518 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+
+body{
+	background:#eee;
+	margin:0 auto;
+}
+
+
+nav{
+	width:100%;
+	height: 3.5em;
+	background-color:#fff;
+	position: fixed;
+	top:0;
+	left: 0;
+	z-index: 100;
+	border-bottom: 1px #bbb solid;
+
+}
+
+@media screen and (min-width:660px){
+
+	nav-left{
+		background-color: #fff;
+		position: absolute;
+		left:0%;
+		top:0;
+		width: 500px;
+		
+		font-family:'Open Sans', sans-serif;;
+		font-size:2.2em; 
+
+	}
+	nav-left nav-element{
+		margin-left:1em;
+	}
+
+	nav-mid{
+		background-color: #fff;
+
+		position: absolute;
+		left:25%;
+		width: 50%;
+		text-align: center;
+		margin-top:1.2em; 
+		font-family:'Open Sans', sans-serif;;
+		font-size:0.9em; 
+
+	}
+	nav-mid a{
+
+		margin: 0.7em;
+		border: 1px solid #444;
+		padding:5px; 
+	}
+
+	nav a{
+		text-decoration: none;
+		color: #000;
+		transition: color 0.4s ease , background-color 0.4s ease;
+	}
+	nav nav-mid a:hover{
+		background-color: #444;
+		color: #fff;
+		
+	}
+	nav-right{
+
+		background-color: #fff;
+		position: absolute;
+		left:75%;
+		width: 25%;
+		text-align: center;
+		margin-top:0.9em; 
+		font-family:'Open Sans', sans-serif;;
+		font-size:1.1em;
+
+	}
+	nav-right a{
+		margin: 0.7em;
+		border: 1px solid #444;
+		padding:5px;
+	}
+	nav nav-right a:hover{
+		background-color: #444;
+		color: #fff;
+		transition: color 0.4s ease , background-color 0.4s ease;
+	}
+
+
+ 	.active{
+ 		background-color:#444; 
+ 		color: #fff;
+ 	}
+
+	toggle-menu{
+		display: none;
+	}
+
+
+	box1{
+		position: absolute;
+		top:7em;
+		left:5em;
+		//border:	1px #444 solid;
+		width: 300px;
+		padding:2em;
+
+		background: #fff;
+
+		-webkit-box-shadow: -2px 5px 21px 0px rgba(122,122,122,1);
+		-moz-box-shadow: -2px 5px 21px 0px rgba(122,122,122,1);
+		box-shadow: -2px 5px 21px 0px rgba(122,122,122,1);
+
+	}
+	box1 heading{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1.6em;
+		color:#000;
+		text-align: center;
+	}
+
+	box1 para{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1em;
+		color:#444;
+	}
+
+	box2{
+		position: absolute;
+		top:7em;
+		right:7em;
+		border:1px #444 solid;
+		width: 280px;
+		padding:2em;
+	}
+	box2 heading{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1.6em;
+		color:#000;
+		text-align: center;
+	}
+
+	box2 para{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1em;
+		color:#444;
+	}
+
+	box3{
+		position: absolute;
+		top:7em;
+		right:7em;
+		border:1px #444 solid;
+		width: 280px;
+		padding:2em;
+		display: none;
+
+	}
+	box3 heading{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1.6em;
+		color:#000;
+		text-align: center;
+	}
+
+	box3 para{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1em;
+		color:#444;
+	}
+	input{
+		width:90%;
+		border:none;
+		border-bottom:1px solid #aaa;
+		background-color:#eee;
+		height:1.5em;
+		font-family: 'Open Sans',sans-serif;
+		font-size: 1.2em;		
+		margin-top: 1em;
+
+	}
+
+	input:focus{ 
+		outline:none;
+	 	border-color: #000;
+ 	}
+
+ 	label {
+		margin-top: 1em;
+ 		color:#555; 
+ 		font-size:1em;
+ 		font-weight:normal;
+ 		position: absolute;
+ 		left:3em;
+ 		pointer-events:none;
+ 		font-family: 'Open Sans',sans-serif;
+ 		transition:0.2s ease all;
+ 		-moz-transition:0.2s ease all;
+ 		-webkit-transition:0.2s ease all;
+	}
+	input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0px 1000px #e5e5e5 inset;
+	}
+	input:focus ~ label, input:valid ~ label{
+  		margin-top: 0em;
+		font-size: 0.8em;
+  		color:#000;
+
+	}
+
+
+	.proceed{
+		background-color: #eee;
+		border: 1px solid #444;
+		padding:5px;
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 1em;
+		color:#000;
+		text-decoration: none;
+		transition: color 0.4s ease , background-color 0.4s ease;
+	}	
+	.proceed:hover{
+		background-color: #444;
+		color: #fff;
+		
+	}
+
+
+	left-side-bar{
+		position: fixed;
+		top:3.5em;
+		left:0em;
+		border-right:1px #bbb solid;
+		width: 13%;
+		bottom:0em;
+		padding:0.4em;
+		background: #fff;
+		padding-top:2em;
+
+	}
+	left-side-bar a{
+		font-family: 'Open Sans', sans-serif;;
+		font-size: 0.9em;
+		color:#000;
+		border: 1px solid #444;
+		transition: color 0.4s ease , background-color 0.4s ease;
+		text-align: center;
+		padding:0.3em;
+		text-decoration: none;
+		margin-top:0.9em;
+		display: block;
+		background: #fff;
+	}
+
+	left-side-bar a:hover{
+		background-color: #444;
+		color:#fff;
+
+	}
+	userbox{
+
+		margin: 0.7em;
+		border-bottom: 1px solid #444;
+		padding:5px;
+		font-size: 0.7em;
+		border-radius: 5px;
+	}
+
+
+	right-side-bar{
+		position: fixed;
+		top:3.5em;
+		right:0em;
+		border-left:1px #bbb solid;
+		width: 16%;
+		bottom:0em;
+		background: #fff;
+
+		display: block;	
+	}	
+	right-header{
+		position: absolute;
+		width: 100%;
+		border-bottom:1px solid #bbb;
+		text-align: center;
+		font-size: 1em;
+		font-family: 'Open Sans',sans-serif;
+		padding:0.5em;
+		display: block;
+	}
+
+
+	.green-circle{
+		width:0;
+		height:0;
+		border-radius:50%;
+		border:5px solid #00aa00;
+		transition: border-color 0s;
+		animation: blink 3s linear 0s infinite normal;
+	}
+
+
+	@keyframes blink {
+    0% {border-color: transparent;}
+    50% {border-color: #00aa00;}
+    100% {border-color: transparent;}
+
+	}
+
+	hack-box{
+		position: absolute;
+		top:3.5em;
+		right:16%;
+		width:69.75%;
+		background: transparent;
+		display: block;
+		font-family: 'Open Sans',sans-serif;	
+	}	
+
+	hack-content{
+		margin:1em;
+		padding:1em;
+		display: block;
+		background:#fff;
+		box-shadow: 0px 4px 4px #888888;
+
+	}
+
+	hack-create{
+		margin:1em;
+		padding:1em;
+		display: block;
+		background:#fff;
+		box-shadow: 0px 4px 4px #888888;
+
+	}
+
+	hack-heading{
+		font-size: 1.5em;
+		margin:1em;
+		display: block;
+		text-decoration: underline;
+	}
+	hack-name{
+		font-size: 1.3em;
+		margin:0.5em;
+		display: inline-flex;
+
+	}
+	
+	hack-creator{
+
+		font-size: 1em;
+		margin:0.5em;
+		display: flex;
+
+	}
+
+	hack-complexity{
+		font-size: 0.9em;
+		margin:0.5em;
+		display: inline;
+		
+
+	}
+
+	hack-time{
+
+		font-size: 0.9em;
+		margin:0.5em;
+		display: inline;
+	}
+
+	hack-score{
+		font-size: 0.9em;
+		margin:0.5em;
+		display: inline;
+
+	}
+
+	meta-text{
+		color:#777;
+	}
+
+	hack-description{
+
+		font-size: 1em;
+		margin:1.5em;
+		display:block;
+
+	}
+
+	hack-tag{
+		display: inline;
+		font-size: 1em;
+		margin:1.5em;
+		color:#fff !important;
+		background: #666;
+		padding:0.2em;
+		border-radius: 5px;
+	}
+	hack-info{
+		text-align: right;
+	}
+
+	
+	textarea.problem{
+		margin:1em;
+		font-size: 0.9em;
+		display: block;
+	}
+
+
+
+	forum{
+		margin:1em;
+		padding:1em;
+		display: block;
+		background:#fff;
+		box-shadow: 0px 4px 4px #888888;
+
+	}
+
+
+	.noStyle{
+		text-decoration: none;
+		color:#000;
+	}
+	
+	profile-box{
+
+		position: absolute;
+		top:3.5em;
+		right:16%;
+		width:69.75%;
+		background: transparent;
+		display: block;
+		font-family: 'Open Sans',sans-serif;
+	}
+
+	profile-pic{
+		display: block;
+		border-radius: 50%;
+		height:200px;
+		width:200px;
+		border:1px solid #000;
+		overflow: hidden;
+
+	}
+	profile-pic img{
+		width:100%;
+		height:130%;
+	}
+
+	profile-name{
+		font-size: 1.4em;
+		position: absolute;
+		top:4em;
+		left:15em;
+	}
+
+	profile{
+		display: block;
+		box-shadow: 0px 4px 4px #888888;
+		margin:2em;
+		background: #fff;	
+		padding:1em;
+	}
+
+	profile-tag{
+		position: absolute;
+		top:10em;
+		left:23em;
+		font-size: 0.8em;
+		color: #888;
+	}
+
+	profile-social{
+		display: inline;
+		position: absolute;
+		top:14em;
+		right: 8em;
+
+	}
+
+	.social{
+		width:40px;
+		height: 40px;
+	}
+
+	profile-resume{
+		margin-left:17em;
+		font-size: 0.8em;
+		text-decoration: none;
+		color: #000;
+	}
+
+	profile-history{
+		display: block;
+		box-shadow: 0px 4px 4px #888888;
+		margin:2em;
+		background: #fff;	
+		padding:1em;
+	}
+
+} 
+
+
+@media screen and (max-width: 760px){
+
+	
+	nav-mid{
+		
+	}
+
+}
