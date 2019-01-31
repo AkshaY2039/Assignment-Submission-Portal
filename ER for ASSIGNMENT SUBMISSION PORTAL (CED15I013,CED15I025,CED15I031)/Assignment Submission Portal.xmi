@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XMI timestamp="2017-04-01T00:56:27" xmi.version="1.2" xmlns:UML="http://schema.omg.org/spec/UML/1.3" verified="false">
+ <XMI.header>
+  <XMI.documentation>
+   <XMI.exporter>umbrello uml modeller http://umbrello.kde.org</XMI.exporter>
+   <XMI.exporterVersion>1.6.9</XMI.exporterVersion>
+   <XMI.exporterEncoding>UnicodeUTF8</XMI.exporterEncoding>
+  </XMI.documentation>
+  <XMI.metamodel xmi.version="1.3" xmi.name="UML" href="UML.xml"/>
+ </XMI.header>
+ <XMI.content>
+  <UML:Model xmi.id="m1" isAbstract="false" isLeaf="false" isSpecification="false" name="UML Model" isRoot="false">
+   <UML:Namespace.ownedElement>
+    <UML:Stereotype xmi.id="folder" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="folder" isRoot="false"/>
+    <UML:Stereotype xmi.id="datatype" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="datatype" isRoot="false"/>
+    <UML:Model xmi.id="Logical View" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="Logical View" isRoot="false">
+     <UML:Namespace.ownedElement>
+      <UML:Package xmi.id="Datatypes" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="Datatypes" stereotype="folder" isRoot="false">
+       <UML:Namespace.ownedElement>
+        <UML:DataType xmi.id="JXFXdg4if20Q" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="ascii" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="C9oO1oL0gyP6" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="bigint" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="YNEZAEz4lzdy" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="bit" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="KRDPx5YsElnI" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="binary" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="z9wpIXnnGlA5" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="blob" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="HKAsNwOG8kEk" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="bool" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="k32RXkqRAvgt" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="char" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="nxhav5dIiAUw" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="charset" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="zLht9CYnS4Ek" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="date" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="MOayGMTNXTlD" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="datetime" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="jE5sX986rEeh" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="decimal" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="bLXw8JKqYKUU" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="double" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="iGdyPQCusZah" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="enum" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="kkyBT8NeYKhl" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="float" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="fOeEJIC1iqYN" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="integer" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="Mfhv3XYXsuo5" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="longblob" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="3ZV7hBxdYwuS" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="longtext" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="SzEHqrdil1QR" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="mediumblob" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="1xYiS4wgU466" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="mediumint" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="CwjaHaMdD7fo" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="mediumtext" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="AdCcWkZiVFVS" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="serial" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="V9BJbZNQDGP9" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="set" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="mVkEvJ1gHsfL" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="smallint" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="ZHKzfKTc4ALl" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="timestamp" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="k7O2LA2hZmIl" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="time" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="LMu6JPP0FlsV" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="tinyblob" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="lVuydWiyFlns" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="tinyint" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="oCwK2bGtjtLZ" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="tinytext" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="nuFH1FOyVFoo" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="text" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="mB7HUUfOjS5Q" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="unicode" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="jZO2sdQnKgZJ" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="varbinary" stereotype="datatype" isRoot="false"/>
+        <UML:DataType xmi.id="iPaa5tGQ0YqW" isAbstract="false" namespace="Datatypes" isLeaf="false" isSpecification="false" visibility="public" name="varchar" stereotype="datatype" isRoot="false"/>
+       </UML:Namespace.ownedElement>
+      </UML:Package>
+      <UML:Class xmi.id="lh8Yg5wsrpWu" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="char(9)" isRoot="false"/>
+      <UML:Class xmi.id="k4XTzTKTSSKO" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="varchar(20)" isRoot="false"/>
+      <UML:Class xmi.id="z3XUKGS5oGOI" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="varchar(30)" isRoot="false"/>
+      <UML:Class xmi.id="mNrfiYbxdTR2" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="char(7)" isRoot="false"/>
+      <UML:Class xmi.id="QwNgcMhgm6op" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="varchar(15)" isRoot="false"/>
+      <UML:Class xmi.id="2ZIposKuRhO7" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="char(10)" isRoot="false"/>
+      <UML:Class xmi.id="J7BjiLD3eIyl" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="numeric(5,2)" isRoot="false"/>
+      <UML:Class xmi.id="rMAne220Df70" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="varchar(50)" isRoot="false"/>
+      <UML:Class xmi.id="Dqcl7Ok3dOKc" isAbstract="false" namespace="Logical View" isLeaf="false" isSpecification="false" visibility="public" name="varchar(30" isRoot="false"/>
+     </UML:Namespace.ownedElement>
+    </UML:Model>
+    <UML:Model xmi.id="Use Case View" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="Use Case View" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model xmi.id="Component View" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="Component View" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model xmi.id="Deployment View" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="Deployment View" isRoot="false">
+     <UML:Namespace.ownedElement/>
+    </UML:Model>
+    <UML:Model xmi.id="Entity Relationship Model" isAbstract="false" namespace="m1" isLeaf="false" isSpecification="false" visibility="public" name="Entity Relationship Model" isRoot="false">
+     <UML:Namespace.ownedElement>
+      <UML:Entity xmi.id="U33mU0fEJfoF" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Course" isRoot="false">
+       <UML:EntityAttribute xmi.id="5g66hz7WjXGQ" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="U33mU0fEJfoF" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Course ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="GV3DaciauGQm" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="U33mU0fEJfoF" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Course Name" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="v9ifF1YAQuPu" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="U33mU0fEJfoF" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Department" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="jKAzklLWZJJg" type="fOeEJIC1iqYN" initialValue="0" auto_increment="0" isAbstract="false" allow_null="0" namespace="U33mU0fEJfoF" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Total Credits" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="GPM6ZEN9ouMe" isAbstract="false" namespace="U33mU0fEJfoF" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Course Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="5g66hz7WjXGQ" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="U33mU0fEJfoF" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Course ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="AtJ9DjyXcilo" isAbstract="false" namespace="U33mU0fEJfoF" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="XNObPRKEZVwI" updateAction="0" name="Course under Department FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="MBc9pajeYGlz" key="v9ifF1YAQuPu"/>
+       </UML:ForeignKeyConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="152x0OQZ8zBA" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Teacher" isRoot="false">
+       <UML:EntityAttribute xmi.id="1Mr3F5NdfN8J" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Teacher ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="XanBURiMs5Pn" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Name" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="p24nGRPakYbs" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Department" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="Pe3tQjt9QDyQ" type="rMAne220Df70" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Email" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="BJxsNmw4rvUN" type="zLht9CYnS4Ek" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Joining" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="e0TdCnwXTiAI" type="zLht9CYnS4Ek" initialValue="NULL" auto_increment="0" isAbstract="false" allow_null="1" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Transfer" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="Ll4J1cLo2sr4" isAbstract="false" namespace="152x0OQZ8zBA" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Teacher Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="1Mr3F5NdfN8J" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="152x0OQZ8zBA" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Teacher ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="SKBKozouzEPn" isAbstract="false" namespace="152x0OQZ8zBA" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="XNObPRKEZVwI" updateAction="0" name="Department for Teacher FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="MBc9pajeYGlz" key="p24nGRPakYbs"/>
+       </UML:ForeignKeyConstraint>
+       <UML:CheckConstraint xmi.id="Vdk3BFwlTqe9" isAbstract="false" namespace="152x0OQZ8zBA" isLeaf="false" isSpecification="false" visibility="public" name="DoJ and DoT" isRoot="false">Date of Joining&lt;=Date of Transfer</UML:CheckConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="4ea5dOICxPLo" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Assignment" isRoot="false">
+       <UML:EntityAttribute xmi.id="lfko6qhLjo5W" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="5DCqYmQoVQND" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment Name" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="qErRfJNtsJW0" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Teacher ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="S9x1ChjFJLC8" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Batch" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="ni1ujGG96RlB" type="fOeEJIC1iqYN" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Credits Alloted" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="fbqSmzNh2QMB" type="MOayGMTNXTlD" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Creation DateTime" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="c1a404BRaIv9" type="MOayGMTNXTlD" initialValue="NULL" auto_increment="0" isAbstract="false" allow_null="1" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Deadline DateTime" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="zKtkbgKopaUw" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Course ID" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="CBmssyvrxEJC" isAbstract="false" namespace="4ea5dOICxPLo" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Assignment Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="lfko6qhLjo5W" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4ea5dOICxPLo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="2L8cfhOsDecC" isAbstract="false" namespace="4ea5dOICxPLo" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="152x0OQZ8zBA" updateAction="0" name="Assigned By FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="1Mr3F5NdfN8J" key="qErRfJNtsJW0"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="ha04GlZWsoMU" isAbstract="false" namespace="4ea5dOICxPLo" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="U33mU0fEJfoF" updateAction="0" name="Assigned For FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="5g66hz7WjXGQ" key="zKtkbgKopaUw"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="hxU8KHepob9Z" isAbstract="false" namespace="4ea5dOICxPLo" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="2OF5HE9K2HvB" updateAction="0" name="Assigned To" deleteAction="1" isRoot="false">
+        <AttributeMap value="GiD6P9euW2Vt" key="S9x1ChjFJLC8"/>
+       </UML:ForeignKeyConstraint>
+       <UML:CheckConstraint xmi.id="Vj35EnAIPlIS" isAbstract="false" namespace="4ea5dOICxPLo" isLeaf="false" isSpecification="false" visibility="public" name="Enough Assignment Time" isRoot="false">(Deadline DateTime-Creation DateTime)>=(3*Credits Alloted)</UML:CheckConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="p082jrftc7OT" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Student" isRoot="false">
+       <UML:EntityAttribute xmi.id="dH5JEi9u7ZlI" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="4CxKU0mPG4Qv" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Name" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="xQOKyVmLTE69" type="zLht9CYnS4Ek" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Birth" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="eQU4syZ2osLH" type="zLht9CYnS4Ek" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Joining" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="qyxMCd5SsW5d" type="zLht9CYnS4Ek" initialValue="NULL" auto_increment="0" isAbstract="false" allow_null="1" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Pass Out" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="jK65u54aoadB" type="rMAne220Df70" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Email" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="TXLomqKHLndF" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Batch" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="WD2ItG3s3xO5" isAbstract="false" namespace="p082jrftc7OT" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Student Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="dH5JEi9u7ZlI" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="p082jrftc7OT" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="hn54UuyjqKx3" isAbstract="false" namespace="p082jrftc7OT" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="2OF5HE9K2HvB" updateAction="0" name="Batch of Student FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="GiD6P9euW2Vt" key="TXLomqKHLndF"/>
+       </UML:ForeignKeyConstraint>
+       <UML:CheckConstraint xmi.id="TVxdTnq1Esw2" isAbstract="false" namespace="p082jrftc7OT" isLeaf="false" isSpecification="false" visibility="public" name="DoP and DoJ" isRoot="false">Date of Pass Out>Date of Joining</UML:CheckConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="pOkZxVSL6SAt" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Submissions" isRoot="false">
+       <UML:EntityAttribute xmi.id="qQnbdRIzjWMQ" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="pOkZxVSL6SAt" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="u3fztnKLCjvu" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="pOkZxVSL6SAt" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="Rc6A08m0ERo0" type="MOayGMTNXTlD" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="pOkZxVSL6SAt" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="DateTime of Submission" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="PY3TBGHzX8fR" isAbstract="false" namespace="pOkZxVSL6SAt" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Submission Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="qQnbdRIzjWMQ" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="pOkZxVSL6SAt" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+        <UML:EntityAttribute xmi.id="u3fztnKLCjvu" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="pOkZxVSL6SAt" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="Muq2vSKBvsUP" isAbstract="false" namespace="pOkZxVSL6SAt" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="p082jrftc7OT" updateAction="0" name="Student to submit FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="dH5JEi9u7ZlI" key="qQnbdRIzjWMQ"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="ukGE7ZSziMC4" isAbstract="false" namespace="pOkZxVSL6SAt" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="4ea5dOICxPLo" updateAction="0" name="Assignment for submission FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="lfko6qhLjo5W" key="u3fztnKLCjvu"/>
+       </UML:ForeignKeyConstraint>
+       <UML:CheckConstraint xmi.id="WYUGXpmE7ytE" isAbstract="false" namespace="pOkZxVSL6SAt" isLeaf="false" isSpecification="false" visibility="public" name="No future Submission" isRoot="false">DateTime of Submission&lt;=CURRENT_TIMESTAMP</UML:CheckConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="253qxLQNRWKe" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Student Timeline" isRoot="false">
+       <UML:EntityAttribute xmi.id="Dac8sIpPjsoy" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="uKxK55rS2lPM" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="Axi3fhwtaiMq" type="HKAsNwOG8kEk" initialValue="false" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Submission Status" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="FTqGlyQr3all" type="HKAsNwOG8kEk" initialValue="false" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Review Status" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="0pKVRVXdC3Pa" isAbstract="false" namespace="253qxLQNRWKe" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Student Timeline Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="Dac8sIpPjsoy" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+        <UML:EntityAttribute xmi.id="uKxK55rS2lPM" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="253qxLQNRWKe" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="fQ8Sx9xhcmtI" isAbstract="false" namespace="253qxLQNRWKe" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="p082jrftc7OT" updateAction="0" name="Which Student FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="dH5JEi9u7ZlI" key="Dac8sIpPjsoy"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="PlMeU6CTCt2s" isAbstract="false" namespace="253qxLQNRWKe" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="4ea5dOICxPLo" updateAction="0" name="What Assignment FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="lfko6qhLjo5W" key="uKxK55rS2lPM"/>
+       </UML:ForeignKeyConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="tYTWnwaHWLRo" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Grading" isRoot="false">
+       <UML:EntityAttribute xmi.id="UXnmrlFQvFu7" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="BptWBOQanGVY" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="VjA9VhGnQ5tR" type="fOeEJIC1iqYN" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Credits Obtained" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="Cl18JM3O4EpH" type="J7BjiLD3eIyl" initialValue="NULL" auto_increment="0" isAbstract="false" allow_null="1" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Plagiarism Measure" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="VzKAY3BY6ixt" isAbstract="false" namespace="tYTWnwaHWLRo" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Grading Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="UXnmrlFQvFu7" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Student ID" isRoot="false"/>
+        <UML:EntityAttribute xmi.id="BptWBOQanGVY" type="2ZIposKuRhO7" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="tYTWnwaHWLRo" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Assignment ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="Z9kgwQDrwypg" isAbstract="false" namespace="tYTWnwaHWLRo" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="p082jrftc7OT" updateAction="0" name="Grade to FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="dH5JEi9u7ZlI" key="UXnmrlFQvFu7"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="2BFY5BuOkqCX" isAbstract="false" namespace="tYTWnwaHWLRo" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="4ea5dOICxPLo" updateAction="0" name="Graded on FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="lfko6qhLjo5W" key="BptWBOQanGVY"/>
+       </UML:ForeignKeyConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="4VVreWQ1GHvH" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="User" isRoot="false">
+       <UML:EntityAttribute xmi.id="qGbOrcmQIrfH" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4VVreWQ1GHvH" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="ID" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="XqziZJ4coFVp" type="nuFH1FOyVFoo" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4VVreWQ1GHvH" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Passphrase" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="CC8uTQIfZhYx" type="MOayGMTNXTlD" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4VVreWQ1GHvH" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Date of Change" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="bsI7lYR5nn1O" isAbstract="false" namespace="4VVreWQ1GHvH" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="User Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="qGbOrcmQIrfH" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="4VVreWQ1GHvH" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="ID" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="3D8qynACfsS9" isAbstract="false" namespace="4VVreWQ1GHvH" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="152x0OQZ8zBA" updateAction="0" name="User is a Teacher" deleteAction="1" isRoot="false">
+        <AttributeMap value="1Mr3F5NdfN8J" key="qGbOrcmQIrfH"/>
+       </UML:ForeignKeyConstraint>
+       <UML:ForeignKeyConstraint xmi.id="gQALJ7V93aVM" isAbstract="false" namespace="4VVreWQ1GHvH" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="p082jrftc7OT" updateAction="0" name="User is a Student" deleteAction="1" isRoot="false">
+        <AttributeMap value="dH5JEi9u7ZlI" key="qGbOrcmQIrfH"/>
+       </UML:ForeignKeyConstraint>
+       <UML:CheckConstraint xmi.id="1apbCNO6IC19" isAbstract="false" namespace="4VVreWQ1GHvH" isLeaf="false" isSpecification="false" visibility="public" name="Invalid Date of Change" isRoot="false">Date of Change&lt;=CURRENT_TIMESTAMP</UML:CheckConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="2OF5HE9K2HvB" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Batch" isRoot="false">
+       <UML:EntityAttribute xmi.id="GiD6P9euW2Vt" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="2OF5HE9K2HvB" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Batch" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="Tp80I4INnexb" type="fOeEJIC1iqYN" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="2OF5HE9K2HvB" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Years" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="r0X9RfWhNjnl" type="fOeEJIC1iqYN" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="2OF5HE9K2HvB" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Strength" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="U7xKudIrROlB" isAbstract="false" namespace="2OF5HE9K2HvB" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Batch Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="GiD6P9euW2Vt" type="mNrfiYbxdTR2" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="2OF5HE9K2HvB" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Batch" isRoot="false"/>
+       </UML:UniqueConstraint>
+      </UML:Entity>
+      <UML:Entity xmi.id="XNObPRKEZVwI" isAbstract="false" namespace="Entity Relationship Model" isLeaf="false" isSpecification="false" visibility="public" name="Department" isRoot="false">
+       <UML:EntityAttribute xmi.id="MBc9pajeYGlz" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="XNObPRKEZVwI" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Department" isRoot="false"/>
+       <UML:EntityAttribute xmi.id="wHgJzR4priAI" type="lh8Yg5wsrpWu" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="XNObPRKEZVwI" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Head_Of_Department" isRoot="false"/>
+       <UML:UniqueConstraint xmi.id="Z1jx1evlCkM1" isAbstract="false" namespace="XNObPRKEZVwI" isLeaf="false" isSpecification="false" visibility="public" isPrimary="1" name="Department Primary Key" isRoot="false">
+        <UML:EntityAttribute xmi.id="MBc9pajeYGlz" type="z3XUKGS5oGOI" initialValue="" auto_increment="0" isAbstract="false" allow_null="0" namespace="XNObPRKEZVwI" attributes="" isLeaf="false" isSpecification="false" values="" visibility="private" dbindex_type="1100" name="Department" isRoot="false"/>
+       </UML:UniqueConstraint>
+       <UML:ForeignKeyConstraint xmi.id="0PmFsNHRO1NN" isAbstract="false" namespace="XNObPRKEZVwI" isLeaf="false" isSpecification="false" visibility="public" referencedEntity="152x0OQZ8zBA" updateAction="0" name="Head Of Department FK" deleteAction="1" isRoot="false">
+        <AttributeMap value="1Mr3F5NdfN8J" key="wHgJzR4priAI"/>
+       </UML:ForeignKeyConstraint>
+      </UML:Entity>
+     </UML:Namespace.ownedElement>
+     <XMI.extension xmi.extender="umbrello">
+      <diagrams>
+       <diagram showatts="1" showops="1" griddotcolor="#d3d3d3" showscope="1" snapx="25" type="9" showattsig="1" linecolor="#ff0000" localid="-1" font="Ubuntu,11,-1,5,50,0,0,0,0,0" linewidth="0" textcolor="#000000" xmi.id="TpNnU2oOqLYf" showpackage="1" snapy="25" snapcsgrid="0" showpubliconly="0" showstereotype="1" canvaswidth="1991.73" showopsig="1" snapgrid="0" zoom="40.45557735707909" showattribassocs="1" fillcolor="#ffff00" name="Assignment Submission Portal ER" usefillcolor="1" isopen="1" backgroundcolor="#ffffff" canvasheight="1311.8" showgrid="0" documentation="">
+        <widgets>
+         <entitywidget y="-800" width="128" usesdiagramfillcolor="0" xmi.id="U33mU0fEJfoF" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="115.839" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#adff00" x="-625" localid="fsgSqN04g8Cg" showstereotype="1"/>
+         <entitywidget y="-788.796" width="162.393" usesdiagramfillcolor="0" xmi.id="152x0OQZ8zBA" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="143.666" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#ffda00" x="-1270.41" localid="qNRE8U5zsoj8" showstereotype="1"/>
+         <entitywidget y="-550" width="172.851" usesdiagramfillcolor="0" xmi.id="4ea5dOICxPLo" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="193.965" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#e36731" x="-325" localid="thWLOOY02cl0" showstereotype="1"/>
+         <entitywidget y="-450" width="168.149" usesdiagramfillcolor="0" xmi.id="p082jrftc7OT" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="176.712" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#6b87bb" x="-1375" localid="3p1ZpHhtJVRQ" showstereotype="1"/>
+         <entitywidget y="-196.399" width="222.229" usesdiagramfillcolor="0" xmi.id="pOkZxVSL6SAt" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="91.1079" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#c8c1da" x="-697.995" localid="dRTcnej5aN5u" showstereotype="1"/>
+         <entitywidget y="103.805" width="181.851" usesdiagramfillcolor="0" xmi.id="253qxLQNRWKe" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="101.31" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#d04554" x="-450" localid="xa1CcVLt6CDP" showstereotype="1"/>
+         <entitywidget y="-71.4943" width="171.149" usesdiagramfillcolor="0" xmi.id="tYTWnwaHWLRo" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="109.908" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#966e9b" x="-529.299" localid="dmI0OTwyw7mm" showstereotype="1"/>
+         <entitywidget y="-525" width="152" usesdiagramfillcolor="0" xmi.id="4VVreWQ1GHvH" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="112" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#3fb085" x="-725" localid="NyAlj4iR3Hpv" showstereotype="1"/>
+         <entitywidget y="-353.927" width="110.971" usesdiagramfillcolor="0" xmi.id="2OF5HE9K2HvB" linecolor="#000000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="89.5711" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#15a5ff" x="-805.324" localid="rj99T4tHBvrx" showstereotype="1"/>
+         <entitywidget y="-882.503" width="192" usesdiagramfillcolor="0" xmi.id="XNObPRKEZVwI" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" usefillcolor="1" height="84" isinstance="0" textcolor="#000000" usesdiagramusefillcolor="0" fillcolor="#2255ff" x="-1663.63" localid="5lLaoD4yKTAM" showstereotype="1"/>
+        </widgets>
+        <messages/>
+        <associations>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="3D8qynACfsS9" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4VVreWQ1GHvH" widgetaid="152x0OQZ8zBA" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1211.16" starty="-645.13"/>
+           <endpoint endx="-725" endy="-525"/>
+           <point y="-579.412" x="-1211.16"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-557.348" isinstance="0" role="703" linecolor="#ff0000" width="172" height="21" localid="Y7GHn8OSVez3" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Teacher is a User]" xmi.id="fk5iBZ6xxzMB" x="-1176.48" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-647.542" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="5zJlljY1Dduc" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="5mjrLpmcx3MF" x="-1237.22" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-530.661" isinstance="0" role="702" linecolor="#ff0000" width="16" height="21" localid="w76IWEZkLdJH" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="504TrbaI9TKp" x="-807.076" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-625" isinstance="0" role="709" linecolor="#ff0000" width="70" height="21" localid="vZzwPJY5t36H" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Teacher" xmi.id="KtgjZ62rWjBa" x="-1296.06" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-526.888" isinstance="0" role="710" linecolor="#ff0000" width="48" height="21" localid="2yDiAaOkKrPg" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="User" xmi.id="2P8NsZIGtaXX" x="-791.509" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="gQALJ7V93aVM" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4VVreWQ1GHvH" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1206.85" starty="-450"/>
+           <endpoint endx="-725" endy="-450"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-450.93" isinstance="0" role="703" linecolor="#ff0000" width="173" height="21" localid="r1P7jyYEwQbq" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Student is a User]" xmi.id="WanlXlSfXsRB" x="-1065.83" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-450" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="QEaapBjywlQB" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="6XIHg6kTbTEv" x="-1189" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-450.93" isinstance="0" role="702" linecolor="#ff0000" width="16" height="21" localid="3UWjCD6EXvKU" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="aMSsFAOtZgox" x="-802.496" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-450" isinstance="0" role="709" linecolor="#ff0000" width="71" height="21" localid="NvV5VYtzocQs" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Student" xmi.id="m86ay2Q5blVe" x="-1176.08" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-450" isinstance="0" role="710" linecolor="#ff0000" width="48" height="21" localid="X0lml5FAaKmb" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="User" xmi.id="vc6tCV0q8wTt" x="-789.765" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="2L8cfhOsDecC" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4ea5dOICxPLo" widgetaid="152x0OQZ8zBA" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1108.02" starty="-645.13"/>
+           <endpoint endx="-325" endy="-550"/>
+           <point y="-642.738" x="-545.652"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-636.741" isinstance="0" role="703" linecolor="#ff0000" width="353" height="21" localid="J05Cc8UweHjj" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Each Teacher can assign more than 1 assignments]" xmi.id="Vr6rgyTuAo5D" x="-1015.43" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-680.827" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="XIyxX79tneHF" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="v83SQV3yKeGC" x="-1121.3" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-551.415" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="NBvz2q82yQD6" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="rywCaaxA6q0X" x="-488.759" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-647.254" isinstance="0" role="709" linecolor="#ff0000" width="70" height="21" localid="Ld5cYNhRWpBj" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Teacher" xmi.id="w55JBIIp0u1m" x="-1145.4" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-554.35" isinstance="0" role="710" linecolor="#ff0000" width="97" height="21" localid="6Bfpq9xm6FS9" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="z51p3WH4Hyjc" x="-468.202" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="Muq2vSKBvsUP" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="pOkZxVSL6SAt" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1206.85" starty="-273.288"/>
+           <endpoint endx="-697.995" endy="-196.399"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-247.826" isinstance="0" role="703" linecolor="#ff0000" width="299" height="21" localid="BcaCKZBhPufA" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Student must exist to Submit Assignment]" xmi.id="HF3AbWHUaTyb" x="-1139.64" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-225.14" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="dOtWtEz6H5Os" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="QMjW9mBwxPej" x="-1215.4" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-201.28" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="98bl2VAKAHT3" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="s3tepT2m33tA" x="-907.031" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-219" isinstance="0" role="709" linecolor="#ff0000" width="71" height="21" localid="rzHN4jHQrVne" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Student" xmi.id="cjNMNKKjrmQU" x="-1206.93" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-202.14" isinstance="0" role="710" linecolor="#ff0000" width="133" height="21" localid="g525oysjAcdm" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Submission Entry" xmi.id="5lmA421KEPCF" x="-881.031" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="ukGE7ZSziMC4" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="pOkZxVSL6SAt" widgetaid="4ea5dOICxPLo" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-208.036" starty="-356.035"/>
+           <endpoint endx="-475.766" endy="-196.399"/>
+           <point y="-253.544" x="-208.036"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-269.236" isinstance="0" role="703" linecolor="#ff0000" width="313" height="21" localid="G9OOID5SPtYr" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Assignment has Multiple Submissions]" xmi.id="V5o2bPgvDmWJ" x="-429.865" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-348.581" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="vvLlLdb7jKNt" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="5FHU8EVO3INt" x="-202.091" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-198.563" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="E5fD240URqsN" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="dJDqlY7phzma" x="-454.254" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-323.114" isinstance="0" role="709" linecolor="#ff0000" width="97" height="21" localid="JXjqo1KJbzvY" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="igqZzUvAePWG" x="-205.046" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-196.702" isinstance="0" role="710" linecolor="#ff0000" width="133" height="21" localid="FTElPZdH31v1" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Submission Entry" xmi.id="TDngWh2BZvj4" x="-425.495" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="fQ8Sx9xhcmtI" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="253qxLQNRWKe" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1355.48" starty="-273.288"/>
+           <endpoint endx="-450" endy="103.805"/>
+           <point y="-81.264" x="-1355.48"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-23.1053" isinstance="0" role="703" linecolor="#ff0000" width="246" height="21" localid="xGrAb6nojKJX" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Student has many Activities]" xmi.id="LAkLCcqdgGND" x="-1235.19" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-270.855" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="uPtHe7HmtJLe" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="SfQ2bFq4DHuE" x="-1379.85" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="108.491" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="en3hcaOroHlo" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="Dy2IwKYAwHkM" x="-656.606" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-242.552" isinstance="0" role="709" linecolor="#ff0000" width="71" height="21" localid="AO85ZzOOE4uu" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Student" xmi.id="CRd5kYAVUhEy" x="-1454.16" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="107.076" isinstance="0" role="710" linecolor="#ff0000" width="108" height="21" localid="RGSrGnV5Jd5U" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Activity Entry" xmi.id="S2wBFpD25cOz" x="-616.039" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="PlMeU6CTCt2s" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="253qxLQNRWKe" widgetaid="4ea5dOICxPLo" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-152.149" starty="-428.017"/>
+           <endpoint endx="-268.149" endy="103.805"/>
+           <point y="-428.017" x="26.167"/>
+           <point y="-11.2144" x="9.34536"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-46.6972" isinstance="0" role="703" linecolor="#ff0000" width="306" height="21" localid="l1iyMOzRVUtZ" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Assignment has some Activity status]" xmi.id="iC44QDfSjOgl" x="-131.718" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-462.16" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="UglcaRexMYGK" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="VWIqjHi9KN1z" x="-141.723" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="95.7849" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="D1K7rtWBp1Xa" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="5FWACER57crL" x="-256.191" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-465.765" isinstance="0" role="709" linecolor="#ff0000" width="97" height="21" localid="0sQHNUqPbq72" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="RzsiFCa94Ukt" x="-113.892" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="97.6747" isinstance="0" role="710" linecolor="#ff0000" width="108" height="21" localid="RzLpnSMbcSK2" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Activity Entry" xmi.id="kTxgUQoMRuuZ" x="-244.576" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="Z9kgwQDrwypg" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="tYTWnwaHWLRo" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1262.84" starty="-273.288"/>
+           <endpoint endx="-529.299" endy="-71.4943"/>
+           <point y="-152.776" x="-1262.84"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-116.678" isinstance="0" role="703" linecolor="#ff0000" width="379" height="21" localid="rH3CbIsQclmE" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Assignment are graded for respective Students]" xmi.id="IBcycKyCZRd1" x="-1303.51" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-271.664" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="5aRQbD6Cy9ru" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="i6Nq7IS2clsb" x="-1297.57" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-68.8375" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="GKv0Ppc9iOgy" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="LwyZtFWP09tG" x="-695.169" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-243.664" isinstance="0" role="709" linecolor="#ff0000" width="71" height="21" localid="HOARgZnpy8QW" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Student" xmi.id="zNzsg7hp0zmu" x="-1357" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-66.2435" isinstance="0" role="710" linecolor="#ff0000" width="98" height="21" localid="IILdUD0bTEAA" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Grade Entry" xmi.id="Aq97ZBvDbDQ9" x="-670.169" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="2BFY5BuOkqCX" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="tYTWnwaHWLRo" widgetaid="4ea5dOICxPLo" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-152.149" starty="-356.035"/>
+           <endpoint endx="-358.15" endy="-71.4943"/>
+           <point y="-352.669" x="-38.9813"/>
+           <point y="-91.0973" x="-70.3934"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-171.182" isinstance="0" role="703" linecolor="#ff0000" width="321" height="21" localid="bMp4NvUri5xT" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Every Assignment has multiple Grade Entries]" xmi.id="Wh7pH1mKtfqd" x="-300.286" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-382.746" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="kAEvrhin6sqV" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="bUQvmnNVs2zJ" x="-143.956" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-47.5783" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="ZNLSCFBUFeW3" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="6ZbWv1ElguGc" x="-340.656" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-384.369" isinstance="0" role="709" linecolor="#ff0000" width="97" height="21" localid="iK12jitWI6lI" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="hvj9OdmBaUB8" x="-134.383" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-49.788" isinstance="0" role="710" linecolor="#ff0000" width="98" height="21" localid="0jfJlKnFkNPc" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Grade Entry" xmi.id="uU8UfnC2R8IB" x="-321.286" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="ha04GlZWsoMU" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4ea5dOICxPLo" widgetaid="U33mU0fEJfoF" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-497" starty="-763.048"/>
+           <endpoint endx="-325" endy="-550"/>
+           <point y="-763.048" x="-341.76"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-685.063" isinstance="0" role="703" linecolor="#ff0000" width="278" height="21" localid="7eQ2BJp6yObl" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Each Course has multiple Assignments]" xmi.id="5op8YemJla80" x="-487.676" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-759.744" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="cEO0zbMCR5V4" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="37e9huUWcH4m" x="-439.487" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-599.443" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="0URddhBAlWkG" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="eBt92BfuFRWq" x="-273.849" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-759.744" isinstance="0" role="709" linecolor="#ff0000" width="64" height="21" localid="X1XW8L6Ltzyk" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Course" xmi.id="BqLjtpbCiTPl" x="-419.683" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-581.117" isinstance="0" role="710" linecolor="#ff0000" width="97" height="21" localid="KxjUMXZlI4hC" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="YGvpPHIuGH4I" x="-304.952" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="1" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" xmi.id="Muq2vSKBvsUP" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="pOkZxVSL6SAt" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1206.85" starty="-273.288"/>
+           <endpoint endx="-697.995" endy="-196.399"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-218.399" isinstance="0" role="710" linecolor="#ff0000" width="158" height="21" localid="tQLcS5ikawz3" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="new_fkey_constraint" xmi.id="TQJN4ZVcEdNd" x="-821.995" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="0PmFsNHRO1NN" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="XNObPRKEZVwI" widgetaid="152x0OQZ8zBA" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1197.83" starty="-788.796"/>
+           <endpoint endx="-1572.32" endy="-882.503"/>
+           <point y="-931.285" x="-1197.83"/>
+           <point y="-926.24" x="-1572.32"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-975.463" isinstance="0" role="703" linecolor="#ff0000" width="285" height="21" localid="pz3W0UfOO23U" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Head of Department must be a Teacher]" xmi.id="3woYWiurnHM8" x="-1575.21" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-836.449" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="zMGkddqYLicF" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="Hhvpp8ORyMQr" x="-1229.98" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-914.87" isinstance="0" role="702" linecolor="#ff0000" width="16" height="21" localid="KvmFCEe9ZvtC" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="YikrQN6h42Wu" x="-1607.32" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-840.578" isinstance="0" role="709" linecolor="#ff0000" width="70" height="21" localid="wir6vb5ia8DZ" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Teacher" xmi.id="csx0s0VvvJUR" x="-1198.56" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-911.211" isinstance="0" role="710" linecolor="#ff0000" width="160" height="21" localid="MCtxveRIhj39" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Head Of Department" xmi.id="lyYBdCUf7C32" x="-1570.95" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="SKBKozouzEPn" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="152x0OQZ8zBA" widgetaid="XNObPRKEZVwI" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1593.94" starty="-798.503"/>
+           <endpoint endx="-1270.41" endy="-717.704"/>
+           <point y="-717.704" x="-1593.94"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-762.608" isinstance="0" role="703" linecolor="#ff0000" width="369" height="21" localid="KN8nnsMRCJg7" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Department must exist for a Teacher to be part of it]" xmi.id="sriM24uPLN8f" x="-1817.45" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-802.371" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="FVgasoD2BHHr" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="RWryscI4j1R8" x="-1623.14" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-713.259" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="QwPe60vLVZuO" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="L5OXMfMlADj0" x="-1392.93" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-801.655" isinstance="0" role="709" linecolor="#ff0000" width="100" height="21" localid="CP3GhCF0ZMnK" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Department" xmi.id="C7lORPVHGBdH" x="-1590.79" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-713.678" isinstance="0" role="710" linecolor="#ff0000" width="70" height="21" localid="ykDJghOwtuB8" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Teacher" xmi.id="p2o31n50YzvX" x="-1365.98" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="AtJ9DjyXcilo" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="U33mU0fEJfoF" widgetaid="XNObPRKEZVwI" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1640.02" starty="-882.503"/>
+           <endpoint endx="-608.328" endy="-800"/>
+           <point y="-1066.12" x="-1640.02"/>
+           <point y="-1075.33" x="-608.328"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-1106.68" isinstance="0" role="703" linecolor="#ff0000" width="276" height="21" localid="4aHraPuPDjjO" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Courses fall under certain department]" xmi.id="DyLTn6TgaPV2" x="-1375.06" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-1036.74" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="dlHBAmCUFMoO" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="zkdB0fwcb7QE" x="-1689.7" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-841.707" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="yb3q8MQl5huF" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="S6khQW5QHgZF" x="-646.514" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-1037.37" isinstance="0" role="709" linecolor="#ff0000" width="100" height="21" localid="MVCKAdyFDF4l" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Department" xmi.id="ewApdtDqrWJc" x="-1621.15" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-843.437" isinstance="0" role="710" linecolor="#ff0000" width="64" height="21" localid="porMDVFzGpn2" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Course" xmi.id="tUxrSx1BxfTg" x="-607.356" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="hn54UuyjqKx3" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="p082jrftc7OT" widgetaid="2OF5HE9K2HvB" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-805.324" starty="-320.621"/>
+           <endpoint endx="-1206.85" endy="-320.621"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-314.731" isinstance="0" role="703" linecolor="#ff0000" width="197" height="21" localid="t0D7hpKE7Zsc" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Batch consists of Students]" xmi.id="3aGZvw5n9Hy2" x="-1092.22" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-345.022" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="0r1A6xAEsTsD" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="SzQSIi6RKyfW" x="-829.848" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-343.405" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="gTjzYWEWLDeS" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="Bme1GUCiTc8m" x="-1200.77" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-315.982" isinstance="0" role="709" linecolor="#ff0000" width="55" height="21" localid="7uLeL08E0JKf" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Batch" xmi.id="8esGCkqDJ4mE" x="-868.434" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-316.576" isinstance="0" role="710" linecolor="#ff0000" width="78" height="21" localid="ZKFgVTidYNiX" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Students" xmi.id="tFCBssyLXRfW" x="-1200" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="3" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="#000000" xmi.id="hxU8KHepob9Z" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4ea5dOICxPLo" widgetaid="2OF5HE9K2HvB" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-694.353" starty="-353.927"/>
+           <endpoint endx="-325" endy="-356.035"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-348.657" isinstance="0" role="703" linecolor="#ff0000" width="294" height="21" localid="dWqhisuWWUOn" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="[Assignments are assigned on Batch Basis]" xmi.id="p8hTCeNIy8I5" x="-679.016" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-373.454" isinstance="0" role="701" linecolor="#ff0000" width="16" height="21" localid="UIyQQHUOrmot" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="1" xmi.id="71Wx3oUu1UKg" x="-701.515" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-383.209" isinstance="0" role="702" linecolor="#ff0000" width="19" height="21" localid="tTAPK56mN4Do" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="N" xmi.id="JhABRy4YyYVz" x="-439.534" showstereotype="1" pretext="" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-375.927" isinstance="0" role="709" linecolor="#ff0000" width="55" height="21" localid="xcIS1NDdr1KX" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Batch" xmi.id="tD1QfPBUYqxi" x="-692.353" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-380.736" isinstance="0" role="710" linecolor="#ff0000" width="97" height="21" localid="oeZuGNkug4yu" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" text="Assignment" xmi.id="5Kn29pKEVP5k" x="-423.377" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="0" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" xmi.id="Muq2vSKBvsUP" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="pOkZxVSL6SAt" widgetaid="p082jrftc7OT" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-1206.85" starty="-273.288"/>
+           <endpoint endx="-697.995" endy="-196.399"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-218.399" isinstance="0" role="710" linecolor="#ff0000" width="133" height="20" localid="B7RVvfxL6Sp2" linewidth="0" font="Noto Sans,9,-1,5,50,0,0,0,0,0" textcolor="none" text="Student to submit FK" xmi.id="MOc6yFMENEf4" x="-825.995" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+         <assocwidget usesdiagramusefillcolor="1" indexb="1" indexa="1" type="519" changeabilityB="900" linecolor="#ff0000" linewidth="0" font="Ubuntu,11,-1,5,50,0,0,0,0,0" textcolor="none" xmi.id="hxU8KHepob9Z" changeabilityA="900" totalcounta="2" fillcolor="#ffff00" usefillcolor="1" totalcountb="2" usesdiagramfillcolor="0" widgetbid="4ea5dOICxPLo" widgetaid="2OF5HE9K2HvB" visibilityA="0" visibilityB="0" seqnum="">
+          <linepath layout="Polyline">
+           <startpoint startx="-694.353" starty="-353.927"/>
+           <endpoint endx="-325" endy="-356.035"/>
+          </linepath>
+          <floatingtext usesdiagramusefillcolor="1" posttext="" y="-354.035" isinstance="0" role="710" linecolor="#ff0000" width="83" height="20" localid="QjwCUYtEYR86" linewidth="0" font="Noto Sans,9,-1,5,50,0,0,0,0,0" textcolor="none" text="Assigned To" xmi.id="rU0XtLySHcaM" x="-403" showstereotype="1" pretext="+" fillcolor="none" usefillcolor="1" usesdiagramfillcolor="1"/>
+         </assocwidget>
+        </associations>
+       </diagram>
+      </diagrams>
+     </XMI.extension>
+    </UML:Model>
+   </UML:Namespace.ownedElement>
+  </UML:Model>
+ </XMI.content>
+ <XMI.extensions xmi.extender="umbrello">
+  <docsettings viewid="TpNnU2oOqLYf" documentation="" uniqueid="leoeDO1ble46"/>
+  <listview>
+   <listitem type="800" open="1" id="Views">
+    <listitem type="821" open="1" id="Component View"/>
+    <listitem type="827" open="1" id="Deployment View"/>
+    <listitem type="836" open="1" id="Entity Relationship Model">
+     <listitem type="832" open="1" id="4ea5dOICxPLo">
+      <listitem type="842" open="0" id="2L8cfhOsDecC"/>
+      <listitem type="842" open="0" id="ha04GlZWsoMU"/>
+      <listitem type="842" open="0" id="hxU8KHepob9Z"/>
+      <listitem type="833" open="0" id="lfko6qhLjo5W"/>
+      <listitem type="833" open="0" id="5DCqYmQoVQND"/>
+      <listitem type="841" open="0" id="CBmssyvrxEJC"/>
+      <listitem type="833" open="0" id="S9x1ChjFJLC8"/>
+      <listitem type="833" open="0" id="zKtkbgKopaUw"/>
+      <listitem type="833" open="0" id="fbqSmzNh2QMB"/>
+      <listitem type="833" open="0" id="ni1ujGG96RlB"/>
+      <listitem type="833" open="0" id="c1a404BRaIv9"/>
+      <listitem type="843" open="0" id="Vj35EnAIPlIS"/>
+      <listitem type="833" open="0" id="qErRfJNtsJW0"/>
+     </listitem>
+     <listitem type="834" open="0" id="TpNnU2oOqLYf" label="Assignment Submission Portal ER"/>
+     <listitem type="832" open="1" id="2OF5HE9K2HvB">
+      <listitem type="833" open="0" id="GiD6P9euW2Vt"/>
+      <listitem type="841" open="0" id="U7xKudIrROlB"/>
+      <listitem type="833" open="0" id="r0X9RfWhNjnl"/>
+      <listitem type="833" open="0" id="Tp80I4INnexb"/>
+     </listitem>
+     <listitem type="832" open="1" id="U33mU0fEJfoF">
+      <listitem type="833" open="0" id="5g66hz7WjXGQ"/>
+      <listitem type="833" open="0" id="GV3DaciauGQm"/>
+      <listitem type="841" open="0" id="GPM6ZEN9ouMe"/>
+      <listitem type="842" open="0" id="AtJ9DjyXcilo"/>
+      <listitem type="833" open="0" id="v9ifF1YAQuPu"/>
+      <listitem type="833" open="0" id="jKAzklLWZJJg"/>
+     </listitem>
+     <listitem type="832" open="1" id="XNObPRKEZVwI">
+      <listitem type="833" open="0" id="MBc9pajeYGlz"/>
+      <listitem type="841" open="0" id="Z1jx1evlCkM1"/>
+      <listitem type="842" open="0" id="0PmFsNHRO1NN"/>
+      <listitem type="833" open="0" id="wHgJzR4priAI"/>
+     </listitem>
+     <listitem type="832" open="1" id="tYTWnwaHWLRo">
+      <listitem type="833" open="0" id="BptWBOQanGVY"/>
+      <listitem type="833" open="0" id="VjA9VhGnQ5tR"/>
+      <listitem type="842" open="0" id="Z9kgwQDrwypg"/>
+      <listitem type="842" open="0" id="2BFY5BuOkqCX"/>
+      <listitem type="841" open="0" id="VzKAY3BY6ixt"/>
+      <listitem type="833" open="0" id="Cl18JM3O4EpH"/>
+      <listitem type="833" open="0" id="UXnmrlFQvFu7"/>
+     </listitem>
+     <listitem type="832" open="1" id="p082jrftc7OT">
+      <listitem type="833" open="0" id="TXLomqKHLndF"/>
+      <listitem type="842" open="0" id="hn54UuyjqKx3"/>
+      <listitem type="833" open="0" id="xQOKyVmLTE69"/>
+      <listitem type="833" open="0" id="eQU4syZ2osLH"/>
+      <listitem type="833" open="0" id="qyxMCd5SsW5d"/>
+      <listitem type="843" open="0" id="TVxdTnq1Esw2"/>
+      <listitem type="833" open="0" id="jK65u54aoadB"/>
+      <listitem type="833" open="0" id="4CxKU0mPG4Qv"/>
+      <listitem type="833" open="0" id="dH5JEi9u7ZlI"/>
+      <listitem type="841" open="0" id="WD2ItG3s3xO5"/>
+     </listitem>
+     <listitem type="832" open="1" id="253qxLQNRWKe">
+      <listitem type="833" open="0" id="uKxK55rS2lPM"/>
+      <listitem type="833" open="0" id="FTqGlyQr3all"/>
+      <listitem type="833" open="0" id="Dac8sIpPjsoy"/>
+      <listitem type="841" open="0" id="0pKVRVXdC3Pa"/>
+      <listitem type="833" open="0" id="Axi3fhwtaiMq"/>
+      <listitem type="842" open="0" id="PlMeU6CTCt2s"/>
+      <listitem type="842" open="0" id="fQ8Sx9xhcmtI"/>
+     </listitem>
+     <listitem type="832" open="1" id="pOkZxVSL6SAt">
+      <listitem type="842" open="0" id="ukGE7ZSziMC4"/>
+      <listitem type="833" open="0" id="u3fztnKLCjvu"/>
+      <listitem type="833" open="0" id="Rc6A08m0ERo0"/>
+      <listitem type="843" open="0" id="WYUGXpmE7ytE"/>
+      <listitem type="833" open="0" id="qQnbdRIzjWMQ"/>
+      <listitem type="842" open="0" id="Muq2vSKBvsUP"/>
+      <listitem type="841" open="0" id="PY3TBGHzX8fR"/>
+     </listitem>
+     <listitem type="832" open="1" id="152x0OQZ8zBA">
+      <listitem type="833" open="0" id="BJxsNmw4rvUN"/>
+      <listitem type="833" open="0" id="e0TdCnwXTiAI"/>
+      <listitem type="833" open="0" id="p24nGRPakYbs"/>
+      <listitem type="842" open="0" id="SKBKozouzEPn"/>
+      <listitem type="843" open="0" id="Vdk3BFwlTqe9"/>
+      <listitem type="833" open="0" id="Pe3tQjt9QDyQ"/>
+      <listitem type="833" open="0" id="XanBURiMs5Pn"/>
+      <listitem type="833" open="0" id="1Mr3F5NdfN8J"/>
+      <listitem type="841" open="0" id="Ll4J1cLo2sr4"/>
+     </listitem>
+     <listitem type="832" open="1" id="4VVreWQ1GHvH">
+      <listitem type="833" open="0" id="CC8uTQIfZhYx"/>
+      <listitem type="833" open="0" id="qGbOrcmQIrfH"/>
+      <listitem type="843" open="0" id="1apbCNO6IC19"/>
+      <listitem type="833" open="0" id="XqziZJ4coFVp"/>
+      <listitem type="842" open="0" id="gQALJ7V93aVM"/>
+      <listitem type="842" open="0" id="3D8qynACfsS9"/>
+      <listitem type="841" open="0" id="bsI7lYR5nn1O"/>
+     </listitem>
+    </listitem>
+    <listitem type="801" open="1" id="Logical View">
+     <listitem type="813" open="1" id="2ZIposKuRhO7"/>
+     <listitem type="813" open="1" id="mNrfiYbxdTR2"/>
+     <listitem type="813" open="1" id="lh8Yg5wsrpWu"/>
+     <listitem type="830" open="0" id="Datatypes">
+      <listitem type="829" open="1" id="JXFXdg4if20Q"/>
+      <listitem type="829" open="1" id="C9oO1oL0gyP6"/>
+      <listitem type="829" open="1" id="KRDPx5YsElnI"/>
+      <listitem type="829" open="1" id="YNEZAEz4lzdy"/>
+      <listitem type="829" open="1" id="z9wpIXnnGlA5"/>
+      <listitem type="829" open="1" id="HKAsNwOG8kEk"/>
+      <listitem type="829" open="1" id="k32RXkqRAvgt"/>
+      <listitem type="829" open="1" id="nxhav5dIiAUw"/>
+      <listitem type="829" open="1" id="zLht9CYnS4Ek"/>
+      <listitem type="829" open="1" id="MOayGMTNXTlD"/>
+      <listitem type="829" open="1" id="jE5sX986rEeh"/>
+      <listitem type="829" open="1" id="bLXw8JKqYKUU"/>
+      <listitem type="829" open="1" id="iGdyPQCusZah"/>
+      <listitem type="829" open="1" id="kkyBT8NeYKhl"/>
+      <listitem type="829" open="1" id="fOeEJIC1iqYN"/>
+      <listitem type="829" open="1" id="Mfhv3XYXsuo5"/>
+      <listitem type="829" open="1" id="3ZV7hBxdYwuS"/>
+      <listitem type="829" open="1" id="SzEHqrdil1QR"/>
+      <listitem type="829" open="1" id="1xYiS4wgU466"/>
+      <listitem type="829" open="1" id="CwjaHaMdD7fo"/>
+      <listitem type="829" open="1" id="AdCcWkZiVFVS"/>
+      <listitem type="829" open="1" id="V9BJbZNQDGP9"/>
+      <listitem type="829" open="1" id="mVkEvJ1gHsfL"/>
+      <listitem type="829" open="1" id="nuFH1FOyVFoo"/>
+      <listitem type="829" open="1" id="k7O2LA2hZmIl"/>
+      <listitem type="829" open="1" id="ZHKzfKTc4ALl"/>
+      <listitem type="829" open="1" id="LMu6JPP0FlsV"/>
+      <listitem type="829" open="1" id="lVuydWiyFlns"/>
+      <listitem type="829" open="1" id="oCwK2bGtjtLZ"/>
+      <listitem type="829" open="1" id="mB7HUUfOjS5Q"/>
+      <listitem type="829" open="1" id="jZO2sdQnKgZJ"/>
+      <listitem type="829" open="1" id="iPaa5tGQ0YqW"/>
+     </listitem>
+     <listitem type="813" open="1" id="J7BjiLD3eIyl"/>
+     <listitem type="813" open="1" id="QwNgcMhgm6op"/>
+     <listitem type="813" open="1" id="k4XTzTKTSSKO"/>
+     <listitem type="813" open="1" id="Dqcl7Ok3dOKc"/>
+     <listitem type="813" open="1" id="z3XUKGS5oGOI"/>
+     <listitem type="813" open="1" id="rMAne220Df70"/>
+    </listitem>
+    <listitem type="802" open="1" id="Use Case View"/>
+   </listitem>
+  </listview>
+  <codegeneration>
+   <codegenerator language="MySQL"/>
+  </codegeneration>
+ </XMI.extensions>
+</XMI>
